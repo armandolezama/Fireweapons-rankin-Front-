@@ -8,7 +8,7 @@ justify-content: center;
 align-items: center;
 
 .text{
-    font-size:10px;
+    font-size:13px;
     color: white;
 }
 

@@ -9,7 +9,7 @@ class WeaponsContainer extends Component {
         }
     }
     componentDidMount() {
-        fetch('http://localhost:8000/api/weapons')
+        fetch('http://localhost:8000/api/weapons/getW')
           .then(response => response.json())
           .then(response => {
             this.setState({

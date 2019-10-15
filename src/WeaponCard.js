@@ -16,11 +16,11 @@ function WeaponCard(props) {
 return (
   <WeaponCardStyles>
     <h3>{props.name}</h3>
-    <p>{props.type}</p>
-    <p>{props.model}</p>
-    <p>{props.caliber}</p>
-    <p>{props.clipsize}</p>
-    <p>{props.originPlace}</p>
+    <p>Tipo: {props.type}</p>
+    <p>Modelo: {props.model}</p>
+    <p>Calibre: {props.caliber}</p>
+    <p>Tamaño del cargador: {props.clipsize}</p>
+    <p>Origen: {props.originPlace}</p>
   </WeaponCardStyles>
 )
 }
